@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -57,6 +57,7 @@ const SignIn = () => {
     setShowPassword(!showPassword);
   };
 
+
   return (
     <div className="bg">
       <Navbar />
@@ -92,6 +93,7 @@ const SignIn = () => {
                   id="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  placeholder="example@gmail.com"
                   required
                 />
               </div>
@@ -103,10 +105,11 @@ const SignIn = () => {
                     id="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
+                    placeholder="Enter password"
                     required
                   />
                   <span onClick={togglePasswordVisibility} className="eye-icon">
-                    {showPassword ? <FaEyeSlash /> : <FaEye />}
+                    {showPassword ? <FaEye /> : <FaEyeSlash />}
                   </span>
                 </div>
               </div>
