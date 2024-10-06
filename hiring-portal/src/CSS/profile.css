@@ -1,3 +1,9 @@
+:root {
+    --text-color: #002145;
+    --background-color: #f0f8ff;
+}
+
+
 .profile-container {
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +42,7 @@
 
 .profile-card h1 {
     font-size: 24px;
-    color: #007bff;
+    color: var(--text-color);
 }
 
 .exp {
@@ -54,7 +60,7 @@
 
 .profile-role-location p {
     margin: 0;
-    color: #459fff;
+    color: var(--text-color);
     font-weight: bold;
 }
 
@@ -71,7 +77,7 @@
 
 .profile-role-location .logout-btn,
 .contact-btn {
-    background-color: #007bff;
+    background-color: var(--text-color);
     color: white;
 }
 
@@ -94,7 +100,7 @@
 
 .section-icon {
     margin-right: 10px;
-    color: #007bff;
+    color: var(--text-color);
 }
 
 /* Work Experience and Skills */
@@ -107,7 +113,7 @@
     padding: 20px;
     border: 1px solid #e0e0e0;
     border-radius: 10px;
-    background-color: #f0f8ff;
+    background-color: var(--background-color);
     box-shadow: 0 7px 12px rgba(0, 0, 0, 0.05);
 }
 
@@ -122,7 +128,7 @@
 .languages-list h2,
 .additional-info h2 {
     font-size: 20px;
-    color: #007bff;
+    color: var(--text-color);
 }
 
 .skills-info h2 {
@@ -139,7 +145,7 @@
 
 .skills-list .skill-item,
 .languages-list .language-item {
-    background-color: #007bff;
+    background-color: var(--text-color);
     color: white;
     border-radius: 25px;
     padding: 8px 15px;
@@ -169,12 +175,12 @@
 }
 
 .contact-info svg {
-    color: #007bff;
+    color: var(--text-color);
 }
 
 /* Additional Info Section Styling */
 .additional-info-section {
-    background-color: #f0f8ff;
+    background-color: var(--background-color);
     /* Light blue background */
     padding: 25px;
     border-radius: 10px;
@@ -184,7 +190,7 @@
 }
 
 .additional-info-section .section-header {
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid var(--text-color);
     margin-bottom: 20px;
     padding-bottom: 10px;
     display: flex;
@@ -192,7 +198,7 @@
 }
 
 .additional-info-section h2 {
-    color: #007bff;
+    color: var(--text-color);
     font-size: 22px;
 }
 
@@ -212,7 +218,7 @@
 }
 
 .info-item strong {
-    color: #007bff;
+    color: var(--text-color);
 }
 
 .info-item span {
@@ -229,22 +235,22 @@
 }
 
 .resume-link {
-    color: #007bff;
+    color: var(--text-color);
     font-weight: bold;
     padding: 10px 15px;
-    border: 1px solid #007bff;
+    border: 1px solid var(--text-color);
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .resume-link:hover {
-    background-color: #007bff;
+    background-color: var(--text-color);
     color: white;
 }
 
 /* Education Section Styling */
 .education-section {
-    background-color: #f0f8ff;
+    background-color: var(--background-color);
     /* Light blue background */
     padding: 25px;
     border-radius: 10px;
@@ -255,7 +261,7 @@
 }
 
 .education-section .section-header {
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid var(--text-color);
     margin-bottom: 20px;
     padding-bottom: 10px;
     display: flex;
@@ -263,7 +269,7 @@
 }
 
 .education-section h2 {
-    color: #007bff;
+    color: var(--text-color);
     font-size: 22px;
 }
 
@@ -277,7 +283,7 @@
 }
 
 .education-info .info-item strong {
-    color: #007bff;
+    color: var(--text-color);
 }
 
 .education-info .info-item span {
@@ -290,7 +296,7 @@
 
 /* Languages Section Styling */
 .languages-section {
-    background-color: #f0f8ff;
+    background-color: var(--background-color);
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 7px 12px rgba(0, 0, 0, 0.05);
@@ -298,7 +304,7 @@
 }
 
 .languages-section .section-header {
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid var(--text-color);
     margin-bottom: 20px;
     padding-bottom: 10px;
     display: flex;
@@ -306,7 +312,7 @@
 }
 
 .languages-section h2 {
-    color: #007bff;
+    color: var(--text-color);
     font-size: 22px;
 }
 
@@ -356,7 +362,7 @@
 }
 
 .applications-section .section-header {
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid var(--text-color);
     margin-bottom: 15px;
     padding-bottom: 10px;
     display: flex;
@@ -364,7 +370,7 @@
 }
 
 .applications-section h2 {
-    color: #007bff;
+    color: var(--text-color);
     font-size: 22px;
 }
 
@@ -389,7 +395,7 @@
 }
 
 .application-item a {
-    color: #007bff;
+    color: var(--text-color);
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s ease;

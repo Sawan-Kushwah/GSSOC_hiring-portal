@@ -86,10 +86,6 @@ const Profile = () => {
               <p className="profile-email">{email}</p>
               <p className="profile-location"><FaMapMarkerAlt /> {profileDetails.address}</p>
             </div>
-            {/* <div className="profile-rating">
-              <span>8.6</span>
-              <FaStar className="star-icon" />
-            </div> */}
             <div className='profile-role-location'>
               {role === 'owner' && (
                 <button className="contact-btn" onClick={() => navigate('/owner')}>Manage Job</button>
