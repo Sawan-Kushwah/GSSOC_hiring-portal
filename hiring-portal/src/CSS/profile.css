@@ -1,6 +1,7 @@
 :root {
-    --text-color: #002145;
+    --text-color: #007bff;
     --background-color: #f0f8ff;
+    --skill-color: #717171;
 }
 
 
@@ -60,7 +61,7 @@
 
 .profile-role-location p {
     margin: 0;
-    color: var(--text-color);
+    color: black;
     font-weight: bold;
 }
 
@@ -131,6 +132,7 @@
     color: var(--text-color);
 }
 
+
 .skills-info h2 {
     margin-bottom: 1.3rem;
     display: flex;
@@ -145,7 +147,7 @@
 
 .skills-list .skill-item,
 .languages-list .language-item {
-    background-color: var(--text-color);
+    background-color: var(--skill-color);
     color: white;
     border-radius: 25px;
     padding: 8px 15px;
@@ -282,8 +284,8 @@
     font-size: 16px;
 }
 
-.education-info .info-item strong {
-    color: var(--text-color);
+.info-item strong {
+    color: black
 }
 
 .education-info .info-item span {
