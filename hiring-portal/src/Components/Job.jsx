@@ -11,7 +11,7 @@ import {
   FaCalendarAlt,
 } from "react-icons/fa";
 import "../CSS/job.css";
-import comlogo from "../company.png";
+import comlogo from "../assests/company.png";
 import Footer from "./Footer";
 import { ClipLoader } from "react-spinners";
 
